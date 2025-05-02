@@ -1,6 +1,6 @@
 # Denoising of Polysomnographic Signals Using RNN (Bi-LSTM)
 
-**Overview**
+# **Overview**
 This project presents a deep learning-based approach for denoising Polysomnographic (PSG) signals using a Bidirectional LSTM Autoencoder. PSG signals such as EEG and EOG are often contaminated with noise due to movement artifacts and other disruptions during sleep studies. Our solution leverages robust preprocessing and RNNs to restore clean biomedical signal patterns, enhancing reliability for downstream analysis like sleep staging.
 
 **Motivation**
