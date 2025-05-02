@@ -47,13 +47,22 @@ Decoder: BiLSTM + Linear layer reconstructs clean signal
 
 ## requiurements.txt 
 numpy==1.24.4
+
 pandas==1.5.3
+
 matplotlib==3.7.1
+
 scipy==1.10.1
+
 scikit-learn==1.2.2
+
 tensorflow==2.15.0
+
 seaborn==0.12.2
+
 jupyterlab==3.6.3
+
 torch == 2.1.2
+
 ``pip install -r requirements.txt``
 
