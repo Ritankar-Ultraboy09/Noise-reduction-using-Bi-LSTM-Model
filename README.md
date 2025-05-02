@@ -24,16 +24,24 @@ Sampling Frequency: 100Hz
 
 ## Preprocessing Steps
 Chunking: Splitting data into 30s windows for manageable input size
+
 Robust Scaling: Normalization using IQR to handle outliers
+
 Z-score Outlier Removal: Threshold set to 2.5
+
 Interpolation & Padding: Linear fill for missing values
+
 Bandpass Filtering: 0.5–40Hz using scipy.signal
 
 ## Model Architecture
 Model: Bidirectional LSTM Autoencoder
+
 Input Shape: (samples, 30, 3)
+
 Output Shape: Same as input (for reconstruction)
+
 Encoder: BiLSTM compresses sequence to latent vector
+
 Decoder: BiLSTM + Linear layer reconstructs clean signal
 
 
